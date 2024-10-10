@@ -1,0 +1,221 @@
+.container1 {
+    background-color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container2, .container4 {
+    background-color: #ffffff;
+}
+
+.container1 .row1, .row2 {
+    /* display: inline; */
+    margin-left: 10em;
+    padding-top: 20px;
+
+}
+h1, h2 {
+    color: rgb(255, 255, 255);
+
+}
+.row1 h2 {
+    display: inline;
+}
+
+.row {
+    display: inline;
+    padding-left: 23em;
+}
+
+
+.row a {
+    color: lightgrey;
+    display: inline;
+    padding-left: 25px;
+    text-decoration: none;
+}
+
+.row2 {
+    display: flex;
+    margin-top: 5em;
+    padding-bottom: 7em;
+}
+
+.col1 {
+    display: 1;
+    width: 35%;
+}
+
+.col1 p {
+    color: rgb(255, 255, 255);
+    /* padding: 4px; */
+    width: 100%;
+    margin: 0px 0px 8px 0px;
+}
+
+.col1 h1 {
+    margin-bottom: 4px;
+}
+
+.col2 {
+    display: 1;
+    width: 45%;
+    background-color: grey;
+    margin-left: 4em;
+    /* margin-top: 1em; */
+    /* text-align: center; */
+}
+
+button {
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    width: 8em;
+    height: 2em;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+
+.col2 p {
+    margin-top: 6em;
+    text-align: center;
+    padding-left: 3em;
+}
+
+.highlighted {
+    background: #FFC107;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container2 h1 {
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.col {
+    flex: 1;
+    width: 5%;
+    height: auto;
+}
+
+img {
+    width: 80%;
+    height: 40%;
+    border: blue solid 2px;
+    border-radius: 5%;
+}
+
+p {
+    width: 80%;
+}
+
+.container3 {
+    background-color: lightgrey;
+}
+
+#quatation {
+    margin-left: 30%;
+    margin-right: 20%;
+    padding-top: 4%;
+    font-size: 28px;
+    font-family: "Farsan", cursive;
+}
+
+#quatation p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#signature {
+    margin-left: 55%;
+    font-weight: 700;
+    padding-top: 0;
+    padding-bottom: 4%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#signature p {
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+.container4 .flex-row {
+    background-color: hsl(210, 100%, 51%);
+    border-radius: 5px;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    /* justify-content: space-around; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#col-1, #col-2 {
+    flex: 1;
+}
+
+#col-1 {
+    padding-left: 10%;
+    color:rgb(255, 255, 255);
+    width: 80%;
+    margin: 0%;
+    
+}
+
+#col-1 #second-p {
+    margin: 0px;
+    font-weight: 100;
+    opacity: 0.7;
+    width: 450px;
+}
+
+#col-1 #first-p {
+    margin: 0px;
+    font-weight: 900;
+    font-size: larger;
+
+}
+
+#col-2 {
+    padding-left: 15%;
+    padding-top: 1%;
+    width: 20%;
+
+}
+
+#col-2 > button {
+    background-color: hsl(210, 100%, 51%);
+    border:  2px solid white;
+}
+
+.container5 {
+    background-color: rgb(0,0,0);
+    /* text-align: center; */
+    color: #ffffff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 37%;
+}
+
+.container5 p {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
